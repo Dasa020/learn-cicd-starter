@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-func TestGetAPI(t *testing.T) {
+func TestGetApi(t *testing.T) {
 	// Success: valid auth header
 	originalKey := "123456789"
 	headers := createAuthHeaders([]string{"ApiKey " + originalKey})
