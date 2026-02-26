@@ -7,7 +7,6 @@ on:
 jobs:
   deploy:
     name: Deploy
-    runs-on: 
 
     steps:
       - name: Check out code
